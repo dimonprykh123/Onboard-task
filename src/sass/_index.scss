@@ -1,0 +1,80 @@
+@import "_variables";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.redColor {
+  background-color: #FF0000;
+}
+
+.greenColor {
+  background-color: #05C03C;
+}
+
+.blueColor {
+  background-color: #006FFF;
+}
+
+.yellowColor {
+  background-color: #FFCB02;
+}
+
+.m-l4 {
+  margin-left: 4px;
+}
+
+.btn-font-size {
+  font-size: $btn-font-size;
+}
+
+td {
+  text-align: center;
+
+  &:last-child {
+    border-radius: 0 50% 50% 0;
+  }
+
+  &:first-child {
+    border-radius: 50% 0 0 50%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+
+
+
+}
+
+::-webkit-scrollbar-track {
+  background-color: #FFFFFF;
+}
+
+
+::-webkit-scrollbar-thumb {
+  height: 60px;
+  background: #C4C4C4;
+  width: 4px;
+  border-radius: 10px;
+}
+
+
+

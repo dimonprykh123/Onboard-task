@@ -1,0 +1,58 @@
+@import "../../sass/_variables";
+
+.table {
+  padding: 17px 44px 42px 44px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border-collapse: separate;
+  border-spacing: 10px 10px;
+  max-width: 900px;
+  max-height: 307px;
+}
+
+.caption {
+  text-align: left;
+  margin: 10px 5px;
+  font-size: $header-font-size;
+  font-weight: bold;
+}
+
+.thead {
+
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.tbody {
+  display: block;
+  max-height: 220px;
+  overflow-y: scroll;
+}
+
+.row {
+  &:first-child {
+    margin: 3px 2px;
+  }
+
+  &:not(:first-child) {
+    margin: 20px 2px;
+  }
+
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  max-width: 770px;
+  max-height: 37px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.head {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  max-width: 770px;
+}

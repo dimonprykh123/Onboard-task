@@ -1,0 +1,23 @@
+@import "../../sass/_variables";
+
+.container {
+  border-radius: 20px;
+  padding: 3px 4px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: $btn-font-size;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.iconContainer {
+  background-color: white;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
